@@ -1,0 +1,42 @@
+img{
+    max-width: 100px x 100px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main, header, nav, article, div{
+    border: 1px solid lightgray;
+}
+nav a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #fc6;
+    text-align: center;
+    background-color: #339900;
+    padding: 5px;
+    display: inline-block;
+    width: 150px;
+}
+nav a:hover {
+    background-color: #66cc00;
+    color: #ff3300;
+}
+main h1{
+    padding: 10px;
+    color: #339900;
+}
+article{
+    display: grid;
+    padding: 5px;
+    grid-gap: 10px; 
+    grid-template-columns: 110px 110px 110px 110px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+article div{
+    text-align: center;
+    color: lightgray;
+}
+ 
+    
